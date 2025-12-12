@@ -349,6 +349,57 @@
     margin-top: 30px;
   }
 
+/* Estilo da Seção de Inscrição */
+.subscribe-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.subscribe-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #4c4c4c; 
+}
+
+#btn-submit {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+#btn-submit:hover {
+    background-color: #fff;
+    transform: scale(1.02);
+}
+
   .declaration-section {
     padding: 60px 10px;
     max-width: 1200px;
