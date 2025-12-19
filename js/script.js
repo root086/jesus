@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         try {
             
-            const webhookURL = 'https://iastation.app.n8n.cloud/webhook-test/32c7fc5c-26f7-4dac-bb2d-6ec2f4c834e9'; 
+            const webhookURL = 'https://iastation.app.n8n.cloud/webhook/32c7fc5c-26f7-4dac-bb2d-6ec2f4c834e9'; 
 
             await fetch(webhookURL, {
                 method: 'POST',
@@ -86,4 +86,5 @@ document.addEventListener("DOMContentLoaded", function() {
             btn.disabled = false;
         }
     });
+
 });
